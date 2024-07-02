@@ -1,4 +1,4 @@
-// const path = "/src/data.json";
+const path = "./data/data.json";
 
 // async function app() {
 //   render(await getData());
@@ -17,7 +17,8 @@
 //   }
 // }
 
-fetch("./data/data.json")
+// fetch("./data/data.json")
+fetch(path)
   .then((response) => response.json())
 
   .then((data) => {
