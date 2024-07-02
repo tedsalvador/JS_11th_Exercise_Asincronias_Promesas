@@ -1,0 +1,48 @@
+table {
+    width: 60%;
+    border-collapse: collapse;
+    justify-content: center;
+  }
+  
+  .cabecera {
+    background-color: #494040;
+  }
+
+  th, 
+  td {
+    padding: 8px 12px;
+    border: 2px solid #000000;
+  }
+  
+/*   th {
+    background-color: #351717;
+  } */
+
+/* lienas adicionales*/
+body {
+  background-color: #ffff;
+}
+
+h1 {
+  color: #0d6efd;
+  text-align: center;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #bbdefb;
+}
+
+thead {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: grey;
+}
+
+canvas {
+  max-width: 100%;
+  height: auto;
+}
