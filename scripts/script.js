@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', async function() {
     try {
-        const response = await fetch('/data/data.json')
+        const response = await fetch('./data/data.json')
         const data = await response.json();
         const taskList = document.getElementById('task-list');
 
